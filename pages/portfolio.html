@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../styles/portfolio.css">
+</head>
+<body>
+    <section class="cover">
+        <header class="navbar">
+            <h2 class="logo">
+                <img src="../assets/images/Chhoryi-Logo.png" alt="">
+            </h2>
+
+            <nav>
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="../index.html#contact" class="btn">Contact</a>
+            </nav>
+        </header>
+
+        <div class="cover-overlay">
+            <h1 class="title">PORTFOLIO</h1>
+        </div>
+    </section>
+
+    <section class="menu">
+        <ul>
+            <li class="active" data-filter="all">ALL</li>
+            <li data-filter="web">WEB APP</li>
+            <li data-filter="desktop">DESKTOP APP</li>
+            <li data-filter="other">OTHER</li>
+        </ul>
+    </section>
+
+    <section class="work-grid" id="workGrid"></section>
+
+    <script src="../scripts/project-data.js"></script>
+    <script src="../scripts/portfolio.js"></script>
+</body>
+</html>

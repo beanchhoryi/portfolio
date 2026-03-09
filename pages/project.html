@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/project-detail.css">
+</head>
+<body>
+    <section class="project-content">
+        <div class="project-image">
+            <div class="image-container">
+                <img id="mainImage" src="" alt="">
+            </div>
+            <div id="thumbnailContainer" class="thumbnail-container"></div>
+        </div>
+        
+        <div class="project-info">
+            <h1 id="projectTitle"></h1>
+            <p id="projectDescription"></p> 
+            <h2>Technologies</h2>
+            <ul id="projectTech"></ul>
+
+            <h2>Features</h2>
+            <ul id="projectFeatures"></ul>
+
+            <div class="project-links">
+                <a id="back" class="btn" href="portfolio.html">Back</a>
+                <a id="githubLink" target="_blank" class="btn">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../scripts/project-data.js"></script>
+    <script src="../scripts/project-detail.js"></script>
+</body>
+</html>

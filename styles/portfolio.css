@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  background: #111;
+  color: rgba(229, 229, 229, 1);
+}
+
+
+.cover{
+    height: 400px;
+    background: url('../assets/images/cover.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.cover-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo img{
+    height: 45px;
+}
+
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar nav a.btn{
+    border: 1px solid white;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+.title {
+    border: 3px solid white;
+    padding: 15px 40px;
+    letter-spacing: 5px;
+}
+
+.menu {
+    background: #111;
+    padding: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menu li {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.menu li:hover,
+.menu li.active {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 60px 100px;
+}
+
+.work-card {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.work-card a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.work-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block;
+}
+
+.work-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: white;
+}
+
+.work-card:hover img {
+    transform: scale(1.1);
+}
+
+.work-card:hover .work-overlay {
+    opacity: 1;
+}
+
+@media (max-width: 900px) {
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .work-card {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .work-card {
+        max-width: 100%;
+    }
+}
+
