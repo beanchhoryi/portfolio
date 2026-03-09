@@ -93,7 +93,7 @@ const projects = [
     subtitle: "Java Desktop Application",
     category: "desktop",
     images: [
-        "../assets/images/projects/desktop/pos/cover2.jpg",
+        "../assets/images/projects/desktop/pos/cover.jpg",
         "../assets/images/projects/desktop/pos/1.jpg",
         "../assets/images/projects/desktop/pos/2.jpg",
         "../assets/images/projects/desktop/pos/3.jpg",
