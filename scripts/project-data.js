@@ -16,7 +16,7 @@ const projects = [
         "../assets/images/projects/web/domino/5.png",
     ],
     description: "The Domino’s Pizza E-Commerce Management System is a web-based application designed to manage online pizza ordering and store operations. It allows customers to browse the menu, add products to the cart, and place orders, while admins manage products, users, and order processing. The system is built using RESTful APIs to ensure secure, scalable, and efficient communication between the frontend and backend services.",
-    tech: ["Backend: Java, Spring Boot", "Architecture: RESTful API", "Database: MySQL", "Security: JWT Authentication, Role-Based Access Control (RBAC)", "Tools: Maven, Postman", "Version Control: Git"],
+    tech: ["Backend: Java, Spring Boot", "Architecture: RESTful API", "Database: MySQL", "Security: JWT Authentication, Role-Based Access Control (RBAC)", "Tools: Maven, postman", "Version Control: Git"],
     features: ["👤 User & Security", "🍕 Product Management", "🛒 Cart Management", "📦 Order & Checkout", "🧑‍💼 Admin Management", ],
     github: "https://github.com/beanchhoryi/java-domino-project",
     demo: "#"
@@ -39,7 +39,7 @@ const projects = [
       "The system provides role-based access control for Admin and Staff users with secure login functionality.",
       "It supports full CRUD operations, search functionality, and pagination to enhance data management and user experience."
     ],
-    tech: ["Language: Python", "Framework: Django", "Frontend: Django Templates + AdminLTE", "Database: PostgreSQL", "Authentication: Django Default Authentication", "Architecture: MVT (Model-View-Template)"],
+    tech: ["Language: Python", "Framework: Django", "Frontend: Django Templates + AdminLTE", "Database: postgreSQL", "Authentication: Django Default Authentication", "Architecture: MVT (Model-View-Template)"],
     features: [
       "👥 Role-Based Access Control", 
       "🔐 Authentication", 
@@ -89,17 +89,17 @@ const projects = [
 
   {
     id: "system1",
-    title: "Point of Sale (POS) System",
+    title: "Point of Sale (POS)) System",
     subtitle: "Java Desktop Application",
     category: "desktop",
     images: [
-        "../assets/images/projects/desktop/pos/cover.jpg",
-        "../assets/images/projects/desktop/pos/1.jpg",
-        "../assets/images/projects/desktop/pos/2.jpg",
-        "../assets/images/projects/desktop/pos/3.jpg",
-        "../assets/images/projects/desktop/pos/4.jpg",
-        "../assets/images/projects/desktop/pos/5.jpg",
-        "../assets/images/projects/desktop/pos/6.jpg",
+        "../assets/images/projects/desktop/pos_sys/cover.jpg",
+        "../assets/images/projects/desktop/pos_sys/1.jpg",
+        "../assets/images/projects/desktop/pos_sys/2.jpg",
+        "../assets/images/projects/desktop/pos_sys/3.jpg",
+        "../assets/images/projects/desktop/pos_sys/4.jpg",
+        "../assets/images/projects/desktop/pos_sys/5.jpg",
+        "../assets/images/projects/desktop/pos_sys/6.jpg",
     ],
     description: [
       "The Point of Sale (POS) System is a Java-based desktop application designed to manage daily sales operations for retail businesses.", 
