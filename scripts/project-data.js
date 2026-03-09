@@ -93,11 +93,13 @@ const projects = [
     subtitle: "Java Desktop Application",
     category: "desktop",
     images: [
-        "../assets/images/projects/desktop/car/cover.jpg",
-        "../assets/images/projects/desktop/car/1.jpg",
-        "../assets/images/projects/desktop/car/2.jpg",
-        "../assets/images/projects/desktop/car/3.jpg",
-        "../assets/images/projects/desktop/car/4.jpg",
+        "../assets/images/projects/desktop/pos/cover.jpg",
+        "../assets/images/projects/desktop/pos/1.jpg",
+        "../assets/images/projects/desktop/pos/2.jpg",
+        "../assets/images/projects/desktop/pos/3.jpg",
+        "../assets/images/projects/desktop/pos/4.jpg",
+        "../assets/images/projects/desktop/pos/5.jpg",
+        "../assets/images/projects/desktop/pos/6.jpg",
     ],
     description: [
       "The Point of Sale (POS) System is a Java-based desktop application designed to manage daily sales operations for retail businesses.", 
