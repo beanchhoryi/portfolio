@@ -172,3 +172,25 @@ body {
     }
 }
 
+/* MOBILE */
+@media (max-width:768px){
+
+  .navbar{
+    padding:20px;
+  }
+
+  .menu ul{
+    flex-wrap:wrap;
+    gap:20px;
+  }
+
+  .work-grid{
+    padding:40px 20px;
+  }
+
+  .title{
+    padding:10px 25px;
+    font-size:20px;
+  }
+
+}
