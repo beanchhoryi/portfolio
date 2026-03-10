@@ -5,12 +5,18 @@
   <title>Project Detail</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/project-detail.css">
+  <link rel="stylesheet" href="../styles/loading.css">
+
 </head>
 <body>
+    <div id="loader-overlay">
+        <img src="assets/icons/pleasewait.gif" alt="Loading..." class="loader-gif">
+    </div>
+    
     <section class="project-content">
         <div class="project-image">
             <div class="image-container">
-                <img id="mainImage" src="" alt="">
+                <img id="mainImage" src="" loading="lazy" alt="">
             </div>
             <div id="thumbnailContainer" class="thumbnail-container"></div>
         </div>
@@ -33,5 +39,6 @@
 
     <script src="../scripts/project-data.js"></script>
     <script src="../scripts/project-detail.js"></script>
+    <script src="../scripts/loading.js"></script>
 </body>
 </html>
