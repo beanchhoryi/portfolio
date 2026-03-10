@@ -351,7 +351,6 @@ button{
 
 
 /* =================================================== About Section ===================================== */
-/* ABOUT LAYOUT */
 .about-layout{
   display:flex;
   align-items:center;
@@ -364,12 +363,12 @@ button{
   border: 1px solid white;
 }
 
-/* PHOTO */
 .about-photo{
   padding: 10px;
   background-color: white;
   border-radius: 16px 0 0 16px;
 }
+
 .about-photo img{
   width:500px;
   height:400px;
@@ -379,21 +378,18 @@ button{
   box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* CARD */
 .about-intro-card{
   padding:35px;
   width:100%;
   text-align:left;
 }
 
-/* GREETING TITLE */
 .about-greeting{
   font-size:28px;
   font-weight:600;
   margin-bottom:15px;
 }
 
-/* DESCRIPTION TEXT */
 .about-text{
   font-size:17px;
   line-height:1.8;
@@ -401,13 +397,11 @@ button{
   color:#333;
 }
 
-/* STATUS TEXT */
 .about-status{
   font-size:16px;
   margin-top:10px;
 }
 
-/* BADGES */
 .status-badge{
   display:inline-block;
   background:#b3d3e6;
@@ -418,14 +412,12 @@ button{
   margin:4px;
 }
 
-/* BUTTON AREA */
 .cta-buttons{
   margin-top:20px;
   display:flex;
   gap:18px;
 }
 
-/* BUTTON SIZE */
 .about-btn{
   padding:12px 24px;
   font-size:15px;
@@ -467,41 +459,20 @@ button{
   border: 1px solid white;
 }
 
-/* PHOTO */
-.about-photo {
-  padding: 10px;
-  background-color: white;
-  border-radius: 16px 0 0 16px;
-  flex: 0 0 auto;
-}
-
-.about-photo img {
-  width: 500px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 16px;
-  border: 4px solid #b3d3e6;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  display: block;
-}
-
-/* CARD CONTAINER */
 .edu-intro-card {
   padding: 35px;
   width: 100%;
   text-align: left;
 }
 
-/* EDUCATION CARDS */
 .edu-description-card {
-  margin-bottom: 35px;  /* Space between the two education cards */
+  margin-bottom: 35px;
 }
 
 .edu-description-card.second-card {
-  margin-bottom: 0;  /* Remove margin from last card */
+  margin-bottom: 0;
 }
 
-/* INSTITUTION NAME */
 .edu-institution {
   color:  black;
   font-size: 22px;
@@ -509,7 +480,6 @@ button{
   font-weight: 600;
 }
 
-/* DEGREE/TITLE */
 .edu-degree {
   font-size: 17px;
   font-weight: 500;
@@ -518,7 +488,6 @@ button{
   line-height: 1.5;
 }
 
-/* DATES */
 .edu-dates {
   font-size: 15px;
   color: #666;
@@ -533,7 +502,6 @@ button{
   margin-left: 5px;
 }
 
-/* LOCATION */
 .edu-location {
   font-size: 15px;
   color: #666;
@@ -541,34 +509,10 @@ button{
   line-height: 1.5;
 }
 
-/* GPA */
 .edu-gpa {
   font-size: 17px;
   font-weight: 600;
   color: black;
   margin-bottom: 0;
   line-height: 1.5;
-}
-
-/* RESPONSIVE */
-@media (max-width: 968px) {
-  .edu-layout {
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .about-photo {
-    border-radius: 16px 16px 0 0;
-    width: 100%;
-    padding: 10px 10px 0 10px;
-  }
-  
-  .about-photo img {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .edu-intro-card {
-    padding: 25px;
-  }
 }
